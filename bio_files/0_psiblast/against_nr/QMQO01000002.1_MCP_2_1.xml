@@ -1,0 +1,741 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_8222180</BlastOutput_query-ID>
+  <BlastOutput_query-def>QMQO01000002.1_MCP_2</BlastOutput_query-def>
+  <BlastOutput_query-len>246</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.05</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_8222180</Iteration_query-ID>
+  <Iteration_query-def>QMQO01000002.1_MCP_2</Iteration_query-def>
+  <Iteration_query-len>246</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|RLE39466.1|</Hit_id>
+  <Hit_def>MAG: hypothetical protein DRJ17_00770 [Candidatus Woesearchaeota archaeon]</Hit_def>
+  <Hit_accession>RLE39466</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>484.567</Hsp_bit-score>
+      <Hsp_score>1246</Hsp_score>
+      <Hsp_evalue>4.47778e-172</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>245</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MDLSSLKTQIIVEANKFRLGPRLLRLQTQTEGSATKITKIKNVNGAIVPSLGAAPVSLLELDSVIVFPLTIKLPILFAIEDFEDNALNDILQRSFKESFHFADIENRLVVETLIAGAGKTITAQAKPDVREVPIIDNFLEAIRFIEDNGYAPNKILVNPDIAESLRQREELKEKLIAYAIEVIINIAVPSQTVIILDSNHAGLLIERVSLEINDYIDPWQGKKGFLLRERVAPVVINGNAVAVIQ</Hsp_qseq>
+      <Hsp_hseq>MDLSSLKTQIIVEANKFRLGPRLLRLQTQTEGSATKITKIKNVNGAIVPSLGAAPVSLLELDSVIVFPLTIKLPILFAIEDFEDNALNDILQRSFKESFHFADIENRLVVETLIAGAGKTITAQAKPDVREVPIIDNFLEAIRFIEDNGYAPNKILVNPDIAESLRQREELKEKLIAYAIEVIINIAVPSQTVIILDSNHAGLLIERVSLEINDYIDPWQGKKGFLLRERVAPVVINGNAVAVIQ</Hsp_hseq>
+      <Hsp_midline>MDLSSLKTQIIVEANKFRLGPRLLRLQTQTEGSATKITKIKNVNGAIVPSLGAAPVSLLELDSVIVFPLTIKLPILFAIEDFEDNALNDILQRSFKESFHFADIENRLVVETLIAGAGKTITAQAKPDVREVPIIDNFLEAIRFIEDNGYAPNKILVNPDIAESLRQREELKEKLIAYAIEVIINIAVPSQTVIILDSNHAGLLIERVSLEINDYIDPWQGKKGFLLRERVAPVVINGNAVAVIQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|PIO07172.1|</Hit_id>
+  <Hit_def>MAG: hypothetical protein COT47_01460 [Candidatus Woesearchaeota archaeon CG08_land_8_20_14_0_20_43_7]</Hit_def>
+  <Hit_accession>PIO07172</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>362.073</Hsp_bit-score>
+      <Hsp_score>928</Hsp_score>
+      <Hsp_evalue>1.61321e-123</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MDLSSLKTQIIVEANKFRLGPRLLRLQTQTEGSATKITKIKNVNGAIVPSLGAAPVSLLELDSVIVFPLTIKLPILFAIEDFEDNALNDILQRSFKESFHFADIENRLVVETLIAGAGKTITAQAKPDVREVPIIDNFLEAIRFIEDNGYAPNKILVNPDIAESLRQREELKEKLIAYAIEVIINIAVPSQTVIILDSNHAGLLIERVSLEINDYIDPWQGKKGFLLRERVAPVVINGNAVAVIQ</Hsp_qseq>
+      <Hsp_hseq>MDLTTVKAKVLLEAGKFRIGPRVLRLQQQTDGSAVKISKIKNVNGAIVPILGTAPISLFDVESVVVFPLTIKATILFSEECFEDNDLNEMLQKSIKESFILAEIENKIVIETLIAGAGKKITAETKQDVREKPILDNFISAIKFIEDNKYHPDAILINPQIAETLRQRDELKEKLLAYAIEVIINTSVPENIVIILDSANAGLIIERVSLEISDYSDPWQSKKGFLLRERVAPVVLNGNAVAVIE</Hsp_hseq>
+      <Hsp_midline>MDL+++K ++++EA KFR+GPR+LRLQ QT+GSA KI+KIKNVNGAIVP LG AP+SL +++SV+VFPLTIK  ILF+ E FEDN LN++LQ+S KESF  A+IEN++V+ETLIAGAGK ITA+ K DVRE PI+DNF+ AI+FIEDN Y P+ IL+NP IAE+LRQR+ELKEKL+AYAIEVIIN +VP   VIILDS +AGL+IERVSLEI+DY DPWQ KKGFLLRERVAPVV+NGNAVAVI+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|RJQ15743.1|</Hit_id>
+  <Hit_def>MAG: hypothetical protein C4573_06345 [Candidatus Woesearchaeota archaeon]</Hit_def>
+  <Hit_accession>RJQ15743</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>359.377</Hsp_bit-score>
+      <Hsp_score>921</Hsp_score>
+      <Hsp_evalue>1.73766e-122</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MDLSSLKTQIIVEANKFRLGPRLLRLQTQTEGSATKITKIKNVNGAIVPSLGAAPVSLLELDSVIVFPLTIKLPILFAIEDFEDNALNDILQRSFKESFHFADIENRLVVETLIAGAGKTITAQAKPDVREVPIIDNFLEAIRFIEDNGYAPNKILVNPDIAESLRQREELKEKLIAYAIEVIINIAVPSQTVIILDSNHAGLLIERVSLEINDYIDPWQGKKGFLLRERVAPVVINGNAVAVIQ</Hsp_qseq>
+      <Hsp_hseq>MDLTTVKSKVLLEAGKFRIGPRVLRLQQQKDGSAVKISKIKNVNGAIVPILGTAPISLFDVESVVVFPLTIKATILFSEECFEDNDLNEMLQKSIKESFILAEIENKIVVETLIAGAGKKITAETKQDVREKPILDNFISAIKFIEDNKYHPDAILINPQIAETLRQRDELKEKLLAYAIEVIIDTSVPENIVIILDSANAGLIIERVSLEISDYSDPWQSKKGFLLRERVAPVVLNGNAVAVIE</Hsp_hseq>
+      <Hsp_midline>MDL+++K+++++EA KFR+GPR+LRLQ Q +GSA KI+KIKNVNGAIVP LG AP+SL +++SV+VFPLTIK  ILF+ E FEDN LN++LQ+S KESF  A+IEN++VVETLIAGAGK ITA+ K DVRE PI+DNF+ AI+FIEDN Y P+ IL+NP IAE+LRQR+ELKEKL+AYAIEVII+ +VP   VIILDS +AGL+IERVSLEI+DY DPWQ KKGFLLRERVAPVV+NGNAVAVI+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|MDP3989723.1|</Hit_id>
+  <Hit_def>hypothetical protein [archaeon]</Hit_def>
+  <Hit_accession>MDP3989723</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>352.443</Hsp_bit-score>
+      <Hsp_score>903</Hsp_score>
+      <Hsp_evalue>8.01019e-120</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>MDLSSLKTQIIVEANKFRLGPRLLRLQTQTEGSATKITKIKNVNGAIVPSLGAAPVSLLELDSVIVFPLTIKLPILFAIEDFEDNALNDILQRSFKESFHFADIENRLVVETLIAGAGKTITAQAKPDVREVPIIDNFLEAIRFIEDNGYAPNKILVNPDIAESLRQREELKEKLIAYAIEVIINIAVPSQTVIILDSNHAGLLIERVSLEINDYIDPWQGKKGFLLRERVAPVVINGNAVAVI</Hsp_qseq>
+      <Hsp_hseq>MDLSTVKSQVLIEAGKFRIGPRVLRLQQQTDGSAIKISKIKNVNGAIVPNLGTAPISLFDVESVVVFPLTIKATILFSEECFEDNGINEMLQKSINESFILAEIENKLVIETLIAGAGKKITTETKDHVREKPILDNFISAIKFIEDNKYHPDVILLNPKIAESLRQRDELKDKLITYAIEVIIDTSVPKNVVIILDSINAGLLIERVPLEISDYSDPWQSKKGFLLRERIAPIVLNGNAVAVI</Hsp_hseq>
+      <Hsp_midline>MDLS++K+Q+++EA KFR+GPR+LRLQ QT+GSA KI+KIKNVNGAIVP+LG AP+SL +++SV+VFPLTIK  ILF+ E FEDN +N++LQ+S  ESF  A+IEN+LV+ETLIAGAGK IT + K  VRE PI+DNF+ AI+FIEDN Y P+ IL+NP IAESLRQR+ELK+KLI YAIEVII+ +VP   VIILDS +AGLLIERV LEI+DY DPWQ KKGFLLRER+AP+V+NGNAVAVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|MCF7798998.1|</Hit_id>
+  <Hit_def>hypothetical protein [Candidatus Woesearchaeota archaeon]</Hit_def>
+  <Hit_accession>MCF7798998</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>350.517</Hsp_bit-score>
+      <Hsp_score>898</Hsp_score>
+      <Hsp_evalue>5.75102e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MDLSSLKTQIIVEANKFRLGPRLLRLQTQTEGSATKITKIKNVNGAIVPSLGAAPVSLLELDSVIVFPLTIKLPILFAIEDFEDNALNDILQRSFKESFHFADIENRLVVETLIAGAGKTITAQAKPDVREVPIIDNFLEAIRFIEDNGYAPNKILVNPDIAESLRQREELKEKLIAYAIEVIINIAVPSQTVIILDSNHAGLLIERVSLEINDYIDPWQGKKGFLLRERVAPVVINGNAVAVIQ</Hsp_qseq>
+      <Hsp_hseq>MDLISVKSQIIVETNKFRLGPALLKLQPLSTGSATKISKIKGVNGAIVPILGSAPISLFEVDTVIAFPLTLKLPLLFSSESFEDNDLGYIMQKSFKECFHFADIENQIVIETLIAGSGKTISAESHPSVKETPLIKNIHEGMKFLEDHKYTPNKLVINPDIAESLRQREELKEKLQSYAMDVIINSSVPKGTIIILDKDHAGLFIERVPVEIKDHVDYWKDQKGFLLRERVVPVVTDGNAVVVIQ</Hsp_hseq>
+      <Hsp_midline>MDL S+K+QIIVE NKFRLGP LL+LQ  + GSATKI+KIK VNGAIVP LG+AP+SL E+D+VI FPLT+KLP+LF+ E FEDN L  I+Q+SFKE FHFADIEN++V+ETLIAG+GKTI+A++ P V+E P+I N  E ++F+ED+ Y PNK+++NPDIAESLRQREELKEKL +YA++VIIN +VP  T+IILD +HAGL IERV +EI D++D W+ +KGFLLRERV PVV +GNAV VIQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|MCF7859188.1|</Hit_id>
+  <Hit_def>hypothetical protein [Candidatus Cloacimonadota bacterium] &gt;gb|MCF8012791.1| hypothetical protein [Candidatus Woesearchaeota archaeon]</Hit_def>
+  <Hit_accession>MCF7859188</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>347.821</Hsp_bit-score>
+      <Hsp_score>891</Hsp_score>
+      <Hsp_evalue>6.25932e-118</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>163</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MDLSSLKTQIIVEANKFRLGPRLLRLQTQTEGSATKITKIKNVNGAIVPSLGAAPVSLLELDSVIVFPLTIKLPILFAIEDFEDNALNDILQRSFKESFHFADIENRLVVETLIAGAGKTITAQAKPDVREVPIIDNFLEAIRFIEDNGYAPNKILVNPDIAESLRQREELKEKLIAYAIEVIINIAVPSQTVIILDSNHAGLLIERVSLEINDYIDPWQGKKGFLLRERVAPVVINGNAVAVIQ</Hsp_qseq>
+      <Hsp_hseq>MDLVSVKSQIIVETNKFRLGPALFKLQPLSIGSATKISKIKGVNGAIVPTLGSAPISLFEVDTVIAFPLTLKLPLLFSSESFEDNDLGYIMQKSFKECFHFADIENQIVIETLIAGSGKIISAESHPSVKETPLIKNIHEGMKFLEDHKYTPNKLVINPDIAESLRQREELKEKLQSYAMDVIINASVPKGTIIILDKDHAGLFIERVPVEIKDHVDYWKDQKGFLLRERVVPVVTDGNAVVVIQ</Hsp_hseq>
+      <Hsp_midline>MDL S+K+QIIVE NKFRLGP L +LQ  + GSATKI+KIK VNGAIVP+LG+AP+SL E+D+VI FPLT+KLP+LF+ E FEDN L  I+Q+SFKE FHFADIEN++V+ETLIAG+GK I+A++ P V+E P+I N  E ++F+ED+ Y PNK+++NPDIAESLRQREELKEKL +YA++VIIN +VP  T+IILD +HAGL IERV +EI D++D W+ +KGFLLRERV PVV +GNAV VIQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|MDP3758365.1|</Hit_id>
+  <Hit_def>hypothetical protein [Candidatus Daviesbacteria bacterium]</Hit_def>
+  <Hit_accession>MDP3758365</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>335.495</Hsp_bit-score>
+      <Hsp_score>859</Hsp_score>
+      <Hsp_evalue>3.10201e-113</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>IIVEANKFRLGPRLLRLQTQTEGSATKITKIKNVNGAIVPSLGAAPVSLLELDSVIVFPLTIKLPILFAIEDFEDNALNDILQRSFKESFHFADIENRLVVETLIAGAGKTITAQAKPDVREVPIIDNFLEAIRFIEDNGYAPNKILVNPDIAESLRQREELKEKLIAYAIEVIINIAVPSQTVIILDSNHAGLLIERVSLEINDYIDPWQGKKGFLLRERVAPVVINGNAVAVI</Hsp_qseq>
+      <Hsp_hseq>MLIEAGKFRIGPRVLRLQQQTDGSAIKISKIKNVKGAIVPNLGTAPISLFDVESVVVFPLTIKATILFSEECFEDNGINEMLQKSINESFILAEIENKLVIETLIAGAGKKITTETKDHVREKPILDNFISAIKFIEDNKYHPDVILLNPKIAESLRQRDELKDKLITYAIEVIIDTSVPENVVIILDSINAGLLIERVPLEISDYSDPWQSKKGFLLRERIAPIVLNGNAVAVI</Hsp_hseq>
+      <Hsp_midline>+++EA KFR+GPR+LRLQ QT+GSA KI+KIKNV GAIVP+LG AP+SL +++SV+VFPLTIK  ILF+ E FEDN +N++LQ+S  ESF  A+IEN+LV+ETLIAGAGK IT + K  VRE PI+DNF+ AI+FIEDN Y P+ IL+NP IAESLRQR+ELK+KLI YAIEVII+ +VP   VIILDS +AGLLIERV LEI+DY DPWQ KKGFLLRER+AP+V+NGNAVAVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|MDO8510625.1|</Hit_id>
+  <Hit_def>hypothetical protein [Nanoarchaeota archaeon]</Hit_def>
+  <Hit_accession>MDO8510625</Hit_accession>
+  <Hit_len>115</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.31</Hsp_bit-score>
+      <Hsp_score>412</Hsp_score>
+      <Hsp_evalue>4.14402e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>MDLSSLKTQIIVEANKFRLGPRLLRLQTQTEGSATKITKIKNVNGAIVPSLGAAPVSLLELDSVIVFPLTIKLPILFAIEDFEDNALNDILQRSFKESFHFADIENRLVVETLI</Hsp_qseq>
+      <Hsp_hseq>MDLTTVKSQVLIEASKFRIGPRVLKLQQQTDGSAIKISKIKNVNGAIVPNLGTAPISLFDVESVVVFPLTIKATILFSEECFEDNGLNEMLQKSISESFILAEIENKLVVETLI</Hsp_hseq>
+      <Hsp_midline>MDL+++K+Q+++EA+KFR+GPR+L+LQ QT+GSA KI+KIKNVNGAIVP+LG AP+SL +++SV+VFPLTIK  ILF+ E FEDN LN++LQ+S  ESF  A+IEN+LVVETLI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|MDP3989724.1|</Hit_id>
+  <Hit_def>phage major capsid protein [archaeon]</Hit_def>
+  <Hit_accession>MDP3989724</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.0922</Hsp_bit-score>
+      <Hsp_score>170</Hsp_score>
+      <Hsp_evalue>8.18411e-10</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>264</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>242</Hsp_align-len>
+      <Hsp_qseq>ANKFRLGPRLLRLQTQTEGSATKITKIKNVNGAIVPSLGAAPVSLLELDSVIVFPLTIKLPILFAIEDFEDNALNDILQRSFKESFHFADIENRLVVETLIAGAGKTITAQAKPDVREVPIIDNFLEAIRFIEDNGYAPNKILVNPD---------IAESLRQREELKEKLI---AYAIEVIINIAVPSQTVIILDSNHAGLLIERVSLEINDYIDPWQG-KKGFLLRERVAPVVINGNAVA</Hsp_qseq>
+      <Hsp_hseq>AGRERVGRKIVKLITLSEGSALKIPKMGAGQAYVIPELGAIPMDVSTFNEIVVTPYKIGKAFAIPKEAIEDSAFDVVRLKADMAAEDIARKEDEEIFRVLM----KT-TNTVSPKTAGQFVQEDVVTLRNAVNRHSYKAAWLVAHPDDLAKLEKDLIGKGYKAFDRLDETGIVGNVAGLQVVETTAVEPGTILALDS-RACVLVERRPLSIENFTDPLRDLAAGVTITERVAPAVLDDNAVS</Hsp_hseq>
+      <Hsp_midline>A + R+G ++++L T +EGSA KI K+      ++P LGA P+ +   + ++V P  I        E  ED+A + +  ++   +   A  E+  +   L+    KT T    P      + ++ +     +  + Y    ++ +PD         I +  +  + L E  I      ++V+   AV   T++ LDS  A +L+ER  L I ++ DP +    G  + ERVAP V++ NAV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|PIO07171.1|</Hit_id>
+  <Hit_def>MAG: phage major capsid protein [Candidatus Woesearchaeota archaeon CG08_land_8_20_14_0_20_43_7]</Hit_def>
+  <Hit_accession>PIO07171</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.707</Hsp_bit-score>
+      <Hsp_score>169</Hsp_score>
+      <Hsp_evalue>1.1449e-09</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>264</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>242</Hsp_align-len>
+      <Hsp_qseq>ANKFRLGPRLLRLQTQTEGSATKITKIKNVNGAIVPSLGAAPVSLLELDSVIVFPLTIKLPILFAIEDFEDNALNDILQRSFKESFHFADIENRLVVETLIAGAGKTITAQAKPDVREVPIIDNFLEAIRFIEDNGYAPNKILVNPD---------IAESLRQREELKEKLI---AYAIEVIINIAVPSQTVIILDSNHAGLLIERVSLEINDYIDPWQG-KKGFLLRERVAPVVINGNAVA</Hsp_qseq>
+      <Hsp_hseq>AGRERVGRKIVKLITLSEGSALKIPKMGAGQAYVIPELGAIPMDVSTFNEVVVTPYKIGKAFAIPKEAIEDSAFDVVRLKADMAAEDVARKEDEEIFRVLMNTSNTVSPKTAGQFVQE-----DVVTLRNGVNRHSYKAAWLVAHPDDLAKLEKDLISKGYKAFDRLDETGIIGNVAGLQVVETTAVEPGTILALDS-RACVLVERRPLSTENFTDPLRDLAAGVTITERVAPAVLDDNAVA</Hsp_hseq>
+      <Hsp_midline>A + R+G ++++L T +EGSA KI K+      ++P LGA P+ +   + V+V P  I        E  ED+A + +  ++   +   A  E+  +   L+  +       A   V+E     + +     +  + Y    ++ +PD         I++  +  + L E  I      ++V+   AV   T++ LDS  A +L+ER  L   ++ DP +    G  + ERVAP V++ NAVA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|RJQ15742.1|</Hit_id>
+  <Hit_def>MAG: phage major capsid protein [Candidatus Woesearchaeota archaeon]</Hit_def>
+  <Hit_accession>RJQ15742</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.5514</Hsp_bit-score>
+      <Hsp_score>166</Hsp_score>
+      <Hsp_evalue>3.09714e-09</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>264</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>242</Hsp_align-len>
+      <Hsp_qseq>ANKFRLGPRLLRLQTQTEGSATKITKIKNVNGAIVPSLGAAPVSLLELDSVIVFPLTIKLPILFAIEDFEDNALNDILQRSFKESFHFADIENRLVVETLIAGAGKTITAQAKPDVREVPIIDNFLEAIRFIEDNGYAPNKILVNPD---------IAESLRQREELKEKLI---AYAIEVIINIAVPSQTVIILDSNHAGLLIERVSLEINDYIDPWQG-KKGFLLRERVAPVVINGNAVA</Hsp_qseq>
+      <Hsp_hseq>AGRERVGRKIVKLITLSEGSALKIPKMGAGQAYVIPELGAIPMDVSTFNEVVVTPYKIGKAFAIPKEAIEDSAFDVVRLKADMAAEDVARKEDEEIFRVLMNTSNTVSPKTAGQFVQE-----DVVTLRNGVNRHSYKAAWLVAHPDDLAKLEKDLISKGYKAFDRLDETGIIGNVAGLQVVETTAVEPGTILALDS-RACVLVERRPLSTENFTDPLRDLAAGVTITERVAPAVLDDNAVS</Hsp_hseq>
+      <Hsp_midline>A + R+G ++++L T +EGSA KI K+      ++P LGA P+ +   + V+V P  I        E  ED+A + +  ++   +   A  E+  +   L+  +       A   V+E     + +     +  + Y    ++ +PD         I++  +  + L E  I      ++V+   AV   T++ LDS  A +L+ER  L   ++ DP +    G  + ERVAP V++ NAV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|MDO8510624.1|</Hit_id>
+  <Hit_def>phage major capsid protein [Nanoarchaeota archaeon]</Hit_def>
+  <Hit_accession>MDO8510624</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.1662</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>4.68035e-09</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>264</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>242</Hsp_align-len>
+      <Hsp_qseq>ANKFRLGPRLLRLQTQTEGSATKITKIKNVNGAIVPSLGAAPVSLLELDSVIVFPLTIKLPILFAIEDFEDNALNDILQRSFKESFHFADIENRLVVETLIAGAGKTITAQAKPDVREVPIIDNFLEAIRFIEDNGYAPNKILVNPD---------IAESLRQREELKEKLI---AYAIEVIINIAVPSQTVIILDSNHAGLLIERVSLEINDYIDPWQG-KKGFLLRERVAPVVINGNAVA</Hsp_qseq>
+      <Hsp_hseq>ADRERVGRKIVKLITLSEGSALKIPKMGAGQAYVIPELGAIPMDVSTFNEIVVTPYKIGKAFAIPKEAIEDSAFDVVRLKADMAAEDIARKEDEEIFRVLM----KT-TNTVSPKTAGQFVQEDVVTLRNAVNRHSYKAAWLVAHPDDLAKLEKDLIGKGYKAFDRLDETGIVGNVAGLQVVETTAVEPGIILALDS-RACVLVERRPLSIENFTDPLRDLAAGVTITERVAPAVLDDNAVS</Hsp_hseq>
+      <Hsp_midline>A++ R+G ++++L T +EGSA KI K+      ++P LGA P+ +   + ++V P  I        E  ED+A + +  ++   +   A  E+  +   L+    KT T    P      + ++ +     +  + Y    ++ +PD         I +  +  + L E  I      ++V+   AV    ++ LDS  A +L+ER  L I ++ DP +    G  + ERVAP V++ NAV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|RLE39465.1|</Hit_id>
+  <Hit_def>MAG: phage major capsid protein [Candidatus Woesearchaeota archaeon]</Hit_def>
+  <Hit_accession>RLE39465</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.781</Hsp_bit-score>
+      <Hsp_score>164</Hsp_score>
+      <Hsp_evalue>4.82034e-09</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>264</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>246</Hsp_align-len>
+      <Hsp_qseq>ANKFRLGPRLLRLQTQTEGSATKITKIKNVNGAIVPSLGAAPVSLLELDSVIVFPLTIKLPILFAIEDFEDNALNDILQRSFKESFHFADIEN----RLVVETLIAGAGKTITAQAKPDVREVPIIDNFLEAIRFIEDNGYAPNKILVNPD---------IAESLRQREELKEKLI---AYAIEVIINIAVPSQTVIILDSNHAGLLIERVSLEINDYIDPWQG-KKGFLLRERVAPVVINGNAVA</Hsp_qseq>
+      <Hsp_hseq>AERERVGRKLLRVISLNEGSALKIPKMGAGQAYVIPELGSIPLDVSTFSEVVITPYKIGKAFAISKESIEDSAFDVVRLKADMAAEDVARKEDAEIFRVLVQTTNTVSPKTAGEFVQEDV---------ITLRNAVNKHNYKAKWLVAHPDDLAKLEKDLISKGYKAFDRLDETGIIGNVAGLQVLETTALDPGTVLALDS-RAVVLVERRPLSTENFTDPLRDLAAGVTITERVAPAVLDDNAVA</Hsp_hseq>
+      <Hsp_midline>A + R+G +LLR+ +  EGSA KI K+      ++P LG+ P+ +     V++ P  I      + E  ED+A + +  ++   +   A  E+    R++V+T    + KT     + DV         +     +  + Y    ++ +PD         I++  +  + L E  I      ++V+   A+   TV+ LDS  A +L+ER  L   ++ DP +    G  + ERVAP V++ NAVA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|MCF7859189.1|</Hit_id>
+  <Hit_def>phage major capsid protein [Candidatus Cloacimonadota bacterium] &gt;gb|MCF8012790.1| phage major capsid protein [Candidatus Woesearchaeota archaeon]</Hit_def>
+  <Hit_accession>MCF7859189</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>4.75955e-08</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>264</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>IVEANKF------RLGPRLLRLQTQTEGSATKITKIKNVNGAIVPSLGAAPVSLLELDSVIVFPLTIKLPILFAIEDFEDNALN-----------DILQRSFKESFHFADIENRLVVETLIAGAGKTITAQAKPDVREVPIIDNFLEAIRFIEDNGYAPNKILVNPD---------IAESLRQREELKEKLI---AYAIEVIINIAVPSQTVIILDSNHAGLLIERVSLEINDYIDPWQG-KKGFLLRERVAPVVINGNAVA</Hsp_qseq>
+      <Hsp_hseq>IIDANVFKVATRERVGRQILRLINLSEGSSIKIPKMGKGKAYVIPELGEIPLDVSTFGDVVITPYKIGKAFAVPSEAIEDSAFDVIKLKADMATEDVVAKEDDEIF-------RVISNTTNTVSPKTVGEFVQEDV---------ITLRNAVNKNNYKAKFLVGHPDDIAKLEKDLISKGYKAFDRLDEDGIIGNVSGLRVLETTAVEAGSVIALDS-RAVVLVERRPLKLKNFEDPLRDLAGGVTLTERVAPAVLDDNAIA</Hsp_hseq>
+      <Hsp_midline>I++AN F      R+G ++LRL   +EGS+ KI K+      ++P LG  P+ +     V++ P  I        E  ED+A +           D++ +   E F       R++  T    + KT+    + DV         +     +  N Y    ++ +PD         I++  +  + L E  I      + V+   AV + +VI LDS  A +L+ER  L++ ++ DP +    G  L ERVAP V++ NA+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|MCF7798997.1|</Hit_id>
+  <Hit_def>phage major capsid protein [Candidatus Woesearchaeota archaeon]</Hit_def>
+  <Hit_accession>MCF7798997</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>1.36126e-07</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>264</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>251</Hsp_align-len>
+      <Hsp_qseq>IVEANKF------RLGPRLLRLQTQTEGSATKITKIKNVNGAIVPSLGAAPVSLLELDSVIVFPLTIKLPILFAIEDFEDNALNDILQRSFKESFHFADIENRLVVETLIAGAGKTITAQAKPDVREVPIIDNFLEAIRFIEDNGYAPNKILVNPD---------IAESLRQREELKEKLI---AYAIEVIINIAVPSQTVIILDSNHAGLLIERVSLEINDYIDPWQG-KKGFLLRERVAPVVINGNAVA</Hsp_qseq>
+      <Hsp_hseq>IIDANVFKVATRERVGRQILRLINLSEGSSIKIPKMGKGKAYVIPELGEIPLDVSTFGDVVITPYKIGKAFAVPSEAIEDSAFDVIKLKADMATEDVVAKEDDEIFR-VISNTTNTVSPKTAGEF----VQEDVITLRNAVNKNNYKAKFLVGHPDDIAKLEKDLISKGYKAFDRLDEDGIIGNVSGLRVLETTAVEAGSVIALDS-RAVVLVERRPLKLKNFEDPLRDLAGGVTLTERVAPAVLDDNAIA</Hsp_hseq>
+      <Hsp_midline>I++AN F      R+G ++LRL   +EGS+ KI K+      ++P LG  P+ +     V++ P  I        E  ED+A + I  ++   +      E+  +   +I+    T++ +   +     + ++ +     +  N Y    ++ +PD         I++  +  + L E  I      + V+   AV + +VI LDS  A +L+ER  L++ ++ DP +    G  L ERVAP V++ NA+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|MBX5327604.1|</Hit_id>
+  <Hit_def>phage major capsid protein [Candidatus Bathyarchaeota archaeon A05DMB-4] &gt;gb|MDH7595996.1| phage major capsid protein [Candidatus Bathyarchaeota archaeon]</Hit_def>
+  <Hit_accession>MBX5327604</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>8.82015e-07</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>IVEANKFRLGPRLLRLQTQTEGSATKITKIKNVNGAIVPSLGAAPVSLLELDSVIVFPLTIKLPILFAIEDFEDNALNDILQRSFKESFH-FADIENRLVVETLIAGAGKTITAQAKPDVREVPIIDNFLEAIRFIEDNGYAPNKILVNP-DIAE-----SLRQREELKEKLIA--------YAIEVIINIAVPSQTVIILDSNHAGLLIERVSLEINDYIDPWQGKKGFLLRERVAPVVINGNAVAVI</Hsp_qseq>
+      <Hsp_hseq>VWEAAKPRLIGRELAVVIAQDAPLIKVPRAKISQAFEVAEGAEIPVGTEDYDSVTLTPKKYGVRPLISREMVEDSEW-DVIEYQLAEAGRAMADLETEKIVSQMISDAGNSVAAGTGGTLSYGDVVNIVKECLI----DGYTPDALAIHPSELADLLKDTAIQKAMEWGGEAVAPSGQIARLLGMQVLVSTKVPSGTALVVDSKHAGVLFIRRDITAEDYEDPVKDLAGVAVTARWAYTTLRADAIGKV</Hsp_hseq>
+      <Hsp_midline>+ EA K RL  R L +    +    K+ + K      V      PV   + DSV + P    +  L + E  ED+   D+++    E+    AD+E   +V  +I+ AG ++ A     +    +++   E +     +GY P+ + ++P ++A+     ++++  E   + +A          ++V+++  VPS T +++DS HAG+L  R  +   DY DP +   G  +  R A   +  +A+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|MEM2917796.1|</Hit_id>
+  <Hit_def>phage major capsid protein [Candidatus Bathyarchaeia archaeon] &gt;gb|MEM3011508.1| phage major capsid protein [Candidatus Bathyarchaeia archaeon]</Hit_def>
+  <Hit_accession>MEM2917796</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>9.88646e-07</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>IIVEANKFRLGPRLLRLQTQTEGSATKITKIKNVNGAIVPSLGAAPVSLLELDSVIVFPLTIKLPILFAIEDFEDNALNDILQRSFKESFH-FADIENRLVVETLIAGAGKTITAQAKPDVREVPIIDNFLEAIRFIEDNGYAPNKILVNPDIAESLRQREELKEKL--------------IAYAIEVIINIAVPSQTVIILDSNHAGLLIERVSLEINDYIDPWQGKKGFLLRERVAPVVINGNAVAVI</Hsp_qseq>
+      <Hsp_hseq>IVWEAAKPKLIGRQLAIVIAQDAPIIKIPRAKLSKAYEVAEGAEIPIASEQYDNITLTPKKYGVRPLISREMVED-AEWDVIEYQLAEAGRAIADIETEKIITQMISDAGNSVSAGTSGTLAYTDVVNILKECLT----DGYTPDALAVHPSELADLLKDTAIQKAMEWGGQAVAPTGQIAILLGMQVYVSTKVPSGTALVVDSKHAGVLFIRRDITTEEYEDPVKDLAGVAVTSRWAYATLRPDAIGKI</Hsp_hseq>
+      <Hsp_midline>I+ EA K +L  R L +    +    KI + K      V      P++  + D++ + P    +  L + E  ED A  D+++    E+    ADIE   ++  +I+ AG +++A     +    +++   E +     +GY P+ + V+P     L +   +++ +              I   ++V ++  VPS T +++DS HAG+L  R  +   +Y DP +   G  +  R A   +  +A+  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|MEM2102344.1|</Hit_id>
+  <Hit_def>phage major capsid protein [Candidatus Bathyarchaeia archaeon]</Hit_def>
+  <Hit_accession>MEM2102344</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>2.72995e-06</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>IVEANKFRLGPRLLRLQTQTEGSATKITKIKNVNGAIVPSLGAAPVSLLELDSVIVFPLTIKLPILFAIEDFEDNALNDILQRSFKESFH-FADIENRLVVETLIAGAGKTITAQAKPDVREVPIIDNFLEAIRFIEDNGYAPNKILVNP-DIAE-----SLRQREELKEKLIA--------YAIEVIINIAVPSQTVIILDSNHAGLLIERVSLEINDYIDPWQGKKGFLLRERVAPVVINGNAVAVI</Hsp_qseq>
+      <Hsp_hseq>VWEAAKPRLIGRELAVVIAQDAPLIKVPRAKISQAFEVAEGAEIPVGTEDYDSVTLTPKKYGVRPLISREMVEDSEW-DVIEYQLAEAGRAMADLETEKIVSQMITDAGNSVAAGTGGTLAYGDVVNIVKECLI----DGYTPDALTIHPSELADLLKDTAIQKAMEWGGEAVAPSGQIARLLGMQVLVSTKIPSGTALVVDSKHAGVLFIRRDITAEDYEDPVKDLAGVAVTARWAYTTLRADAIGKV</Hsp_hseq>
+      <Hsp_midline>+ EA K RL  R L +    +    K+ + K      V      PV   + DSV + P    +  L + E  ED+   D+++    E+    AD+E   +V  +I  AG ++ A     +    +++   E +     +GY P+ + ++P ++A+     ++++  E   + +A          ++V+++  +PS T +++DS HAG+L  R  +   DY DP +   G  +  R A   +  +A+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|RLG93064.1|</Hit_id>
+  <Hit_def>MAG: phage major capsid protein [Candidatus Bathyarchaeota archaeon] &gt;tpg|HDI07916.1| phage major capsid protein [Candidatus Bathyarchaeota archaeon]</Hit_def>
+  <Hit_accession>RLG93064</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>3.66164e-06</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>254</Hsp_align-len>
+      <Hsp_qseq>IVEANKFRLGPRLLRLQTQTEGSATKITKIKNVNGAIVPSLGAAPVSLLELDSVIVFPLTIKLPILFAIEDFEDNALNDILQRSFKESFH-FADIENRLVVETLIAGAGKTITAQAKPDVREVPIIDNFLEAIRFIEDNGYAPNKILVNPDIAESLRQREELKEKLIAYAIE-------------------VIINIAVPSQTVIILDSNHAGLLIERVSLEINDYIDPWQGKKGFLLRERVAPVVINGNAVAVI</Hsp_qseq>
+      <Hsp_hseq>VWEAAKPNLIGRQLAVVIAQDAPIIKIPRAKLTRAYEVAEGAEIPIDTQEYDNITLTPKKYGVRPVISREMVEDASW-DVIEYQLAEAGRAMADVETEKIISQMIADAGNSVTAENAGTLAYGDVV-NILKEILI---DGYQPDVLAVHPSELADL-----LKDTAIQKAVEWGGEPVAPTGKVATLLGMRVLVSTKVPSGTALAVDSKHAGVLFIRRDITAEDYEDPVKDLAGIAVTARWAYATLRAEAIGKI</Hsp_hseq>
+      <Hsp_midline>+ EA K  L  R L +    +    KI + K      V      P+   E D++ + P    +  + + E  ED +  D+++    E+    AD+E   ++  +IA AG ++TA+    +    ++ N L+ I     +GY P+ + V+P     L     LK+  I  A+E                   V+++  VPS T + +DS HAG+L  R  +   DY DP +   G  +  R A   +   A+  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|MFB6089353.1|</Hit_id>
+  <Hit_def>phage major capsid protein [Candidatus Aenigmatarchaeota archaeon]</Hit_def>
+  <Hit_accession>MFB6089353</Hit_accession>
+  <Hit_len>282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>2.73032e-05</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>208</Hsp_align-len>
+      <Hsp_qseq>PVSLLELDSVIVFPLTIKLPILFAIEDFEDNALNDILQRSFKES-FHFADIENRLVVETLIAG---AGKTITAQAKPDVREVPIIDNFLEAIRFIEDNGYAPNKILVNPDIAESLRQ------------REELKEKLIAY--AIEVIINIAVPSQTVIILDSNHAGLLIERVSLEINDYIDPWQGKKGFLLRERVAPVVINGNAVAVI</Hsp_qseq>
+      <Hsp_hseq>PIDAEEYSTFNIKPVKYGIRITITNEMRED-AKWDILRYNIETAGYKFAENEDDLFVDQLDAANTAAGHTVSGSG------AITIDNITEAQKNIRDDKMDPDVFLFGSEIYKDLQNIDTFMEADKWGNRDTLETGFVNHFLNMDFVFSHSVTSTHAYAFDSRHAMILVEKRPLTMKEYDDPVRDMKGIVITQRIKYRYLRANAVSKI</Hsp_hseq>
+      <Hsp_midline>P+   E  +  + P+   + I    E  ED A  DIL+ + + + + FA+ E+ L V+ L A    AG T++            IDN  EA + I D+   P+  L   +I + L+             R+ L+   + +   ++ + + +V S      DS HA +L+E+  L + +Y DP +  KG ++ +R+    +  NAV+ I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>tpg|HVP41006.1|</Hit_id>
+  <Hit_def>phage major capsid protein [Candidatus Krumholzibacteriaceae bacterium]</Hit_def>
+  <Hit_accession>HVP41006</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>0.000163878</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>107</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>PVSLLELDSVIVFPLTIKLPILFAIEDFEDNALNDILQRSFKESFH-FADIENRLVVETLIAGAGKTITAQAKPDVREVPIIDNFLEAIRFIEDNGYAPNKILVNP-DIAE-----SLRQREELKEKLIA--------YAIEVIINIAVPSQTVIILDSNHAGLLIERVSLEINDYIDPWQGKKGFLLRERVAPVVINGNAVAVI</Hsp_qseq>
+      <Hsp_hseq>PVGTEDYDSVTLTPKKYGVRPLISREMVED-AEWDVIEYQLTEAGRAMADLETETIVGQMISDAGNSLGAGTGGTLAYSDVVNIVKECLI----DGFTPDAIAIHPSELADLLKDTAIQKAMEWGGEAVAPSGQIARLLGMQVLVSTKVTSGTALVVDSKHAGVLFIRRDITAEDYEDPVKDLAGVAITSRWAYTTLRTEAIGKV</Hsp_hseq>
+      <Hsp_midline>PV   + DSV + P    +  L + E  ED A  D+++    E+    AD+E   +V  +I+ AG ++ A     +    +++   E +     +G+ P+ I ++P ++A+     ++++  E   + +A          ++V+++  V S T +++DS HAG+L  R  +   DY DP +   G  +  R A   +   A+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gb|TET19629.1|</Hit_id>
+  <Hit_def>MAG: phage major capsid protein [Candidatus Bathyarchaeota archaeon]</Hit_def>
+  <Hit_accession>TET19629</Hit_accession>
+  <Hit_len>325</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>0.00064265</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>322</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>256</Hsp_align-len>
+      <Hsp_qseq>IIVEANKFRL-GPRLLRLQTQTEGSATKITKIKNVNGAIVPSLGAAPVSLLELDSVIVFPLTIKLPILFAIEDFEDNALNDILQRSFKESFH-FADIENRLVVETLIAGAGKTITAQAKPDVREVPIIDNFLEAIRFIEDNGYAPNKILVNPDIAESLRQREELKEKLIAYAIE-------------------VIINIAVPSQTVIILDSNHAGLLIERVSLEINDYIDPWQGKKGFLLRERVAPVVINGNAVAVI</Hsp_qseq>
+      <Hsp_hseq>IVWEAAKPNLIGRELVTVMAKDEPS-IKIPRAKLSKAYEVAEGAEIPIGTEDYDSVTLTPKKYGVRPLISREMVED-AEWDVIQYQLAEAGRAMADLETEKIITKMISDAGNSAAAATSGTLAYADIVD----MINLIMTDDFAPDVMAVHPSEFADL-----LKDTAIQKAMEWGGPAVAPTGKIAGLLGMRVLISTKVTSGTVLVVDSKHASVLFIRRDITAEEYEDPVKDLAGVAITARWIYNTMRANAIGKI</Hsp_hseq>
+      <Hsp_midline>I+ EA K  L G  L+ +  + E S  KI + K      V      P+   + DSV + P    +  L + E  ED A  D++Q    E+    AD+E   ++  +I+ AG +  A     +    I+D     I  I  + +AP+ + V+P     L     LK+  I  A+E                   V+I+  V S TV+++DS HA +L  R  +   +Y DP +   G  +  R     +  NA+  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gb|RLG00035.1|</Hit_id>
+  <Hit_def>MAG: phage major capsid protein [Nitrososphaerota archaeon]</Hit_def>
+  <Hit_accession>RLG00035</Hit_accession>
+  <Hit_len>292</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>0.000864041</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>89</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>208</Hsp_align-len>
+      <Hsp_qseq>PVSLLELDSVIVFPLTIKLPILFAIEDFEDNALNDILQRSFK-ESFHFADIENRLVVETLIAGAGKTITAQAKPDVREVPIIDNFLEAIRFIEDNGYAPNKILVNPDIAESLRQ------------REELKEKLIA--YAIEVI---INIAVPSQTVIILDSNHAGLLIERVSLEINDYIDPWQGKKGFLLRERVAPVVINGNAVAVI</Hsp_qseq>
+      <Hsp_hseq>PLDQTEYTSTNLKPVKYGVAIRITRELLEDAKWN-LLEHNIKIAGKRFAENENSLIISNALDDAGNTVSGGASI------TIANITSAMQNLEDNDYTPTTLIVGMEVLNDLRNIDTFVEANKVGNTEMLQRGFLGTIYGMNVIKVSSNAGMTSTTAYVIDKNHAYMIAEKRPVTIENFELPTYDMSAAAITQRIVVEELRANAIAKI</Hsp_hseq>
+      <Hsp_midline>P+   E  S  + P+   + I    E  ED   N +L+ + K     FA+ EN L++   +  AG T++  A         I N   A++ +EDN Y P  ++V  ++   LR              E L+   +   Y + VI    N  + S T  ++D NHA ++ E+  + I ++  P        + +R+    +  NA+A I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gb|MDH5782072.1|</Hit_id>
+  <Hit_def>phage major capsid protein [Candidatus Bathyarchaeota archaeon]</Hit_def>
+  <Hit_accession>MDH5782072</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.7582</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>0.00118004</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>PVSLLELDSVIVFPLTIKLPILFAIEDFEDNALNDILQRSFKESFH-FADIENRLVVETLIAGAGKTITAQAKPDVREVPIIDNFLEAIRFIEDNGYAPNKILVNPDIAESLRQREELKEKLIAYAIE-------------------VIINIAVPSQTVIILDSNHAGLLIERVSLEINDYIDPWQGKKGFLLRERVAPVVINGNAVAVI</Hsp_qseq>
+      <Hsp_hseq>PIGTENYDSVTLTPKKYGVRPLISREMVED-AEWDVIQYQLAEAGRAMADLETEKIITQMITDAGNSAAAATSGTLAYADIVN----MINLIMSDDFAADVIAVHPSEFADL-----LKDTAIQKAMEWGGPAVAPTGKIGTLLGMRVLISTRVPSGTVLLDDSKHAGVLFVRRDITTEEYEDPVKDLAGVAITARWVYNTMRANAIGKI</Hsp_hseq>
+      <Hsp_midline>P+     DSV + P    +  L + E  ED A  D++Q    E+    AD+E   ++  +I  AG +  A     +    I++     I  I  + +A + I V+P     L     LK+  I  A+E                   V+I+  VPS TV++ DS HAG+L  R  +   +Y DP +   G  +  R     +  NA+  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gb|MEM2726646.1|</Hit_id>
+  <Hit_def>encapsulin [Archaeoglobaceae archaeon]</Hit_def>
+  <Hit_accession>MEM2726646</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>0.0203621</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>IIVEANKFRLGPRLLRLQTQTEGSAT-------KITKIKNV-NGAIVPSLGAAPVSLLELDSVIVFPLTIKLPILFAIEDFEDNALNDILQRSFKESFHFADIENRLVVETLIAGAGKTITAQAKPDVREVPIIDNFLEAIRFIEDNGYAPNKILVNP----DI----AESLRQREELKEKLIAYAIEVIINIAVPSQTVIILDSNHAGLLIERVSLEINDYIDPWQGKKGFL-LRERVAPVVINGNAVA</Hsp_qseq>
+      <Hsp_hseq>VVVQARATRVGRNLVTVEKVDAGATTYKFRKFIGFTKVDEIPEGAEFPLEG---VSYSEEVATI---KKIGKAFLVTREEVLANKLHSIAQLARDAAEVVALKEDELIVAELVSDAGKTQAAGAAWNSSTANPYNDVSNALAKLEEVAVKPNVLVVNPLRMADLRKIDANSMRTFQELIEGL---GLKIITTPSISASTGLLLDTSKAGVLAVAEDITIEDPVYKAENQSYLVNVYERVVPVCRYPNAIC</Hsp_hseq>
+      <Hsp_midline>++V+A   R+G  L+ ++    G+ T         TK+  +  GA  P  G   VS  E  + I     I    L   E+   N L+ I Q +   +   A  E+ L+V  L++ AGKT  A A  +       ++   A+  +E+    PN ++VNP    D+    A S+R  +EL E L    +++I   ++ + T ++LD++ AG+L     + I D +   + +   + + ERV PV    NA+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>851701250</Statistics_db-num>
+      <Statistics_db-len>325325548005</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
